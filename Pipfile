@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+lab = "*"
+notebook = "*"
+voila = "*"
+langchain-openai = "*"
+pypdf = "*"
+langchain-community = "*"
+python-dotenv = "*"
+langgraph = "*"
+pinecone-client = {extras = ["grpc"], version = "*"}
+langchain-chroma = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
