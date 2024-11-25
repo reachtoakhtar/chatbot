@@ -13,6 +13,8 @@ pypdf = "*"
 langchain-community = "*"
 python-dotenv = "*"
 langgraph = "*"
+pinecone-client = {extras = ["grpc"], version = "*"}
+langchain-chroma = "*"
 
 [dev-packages]
 
